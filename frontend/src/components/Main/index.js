@@ -2,6 +2,10 @@ import React from "react";
 import Carousel from "../Carousel";
 import Cards from "../Cards";
 
+import ViverdeLogo from "../../assets/viverde-logo.png";
+import M2mLogo from "../../assets/m2m-logo.png";
+import ThoquinoLogo from "../../assets/thoquino-logo.png";
+
 import { Container } from "./styles";
 
 export default function Main() {
@@ -21,14 +25,23 @@ export default function Main() {
       </section>
 
       <Cards />
+      <section className="m-5">
+        <div className="container">
+          <ul className="row">
+            <figure className="p-0 col-12 col-sm-4">
+              <img id="viverde-logo" src={ViverdeLogo} alt="" />
+            </figure>
 
-      {/* <footer className="mt-5 p-3 bg-dark text-center text-light">
-        <h2>Fale conosco</h2>
-        <p>
-          Para ter um contato mais direto conosco envie uma mensagem{" "}
-          <a href="#">pelo WhatsApp</a>
-        </p>
-      </footer> */}
+            <figure className="p-0 col-12 col-sm-4">
+              <img id="m2m-logo" src={M2mLogo} alt="" />
+            </figure>
+
+            <figure className="p-0 col-12 col-sm-4">
+              <img id="thoquino-logo" src={ThoquinoLogo} alt="" />
+            </figure>
+          </ul>
+        </div>
+      </section>
     </Container>
   );
 }

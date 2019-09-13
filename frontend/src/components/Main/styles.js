@@ -8,4 +8,8 @@ export const Container = styled.div`
     font-size: 50px;
     -webkit-font-smoothing: antialiased !important;
   }
+
+  #m2m-logo {
+    width: 290px;
+  }
 `;

@@ -1,4 +1,7 @@
 import React from "react";
+import { FaWhatsapp } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
+import { FaFacebookF } from "react-icons/fa";
 
 import { Container } from "./styles";
 
@@ -41,10 +44,32 @@ export default function Contact() {
             />
           </div>
 
-          <button type="button" class="btn button btn-lg">
+          <button type="button" class="btn button-form btn-lg">
             Enviar Mensagem
           </button>
         </form>
+
+        <footer className="mt-5 p-3 bg-dark text-center text-light">
+          <h2>Fale conosco</h2>
+
+          <p className="mb-3">
+            Copyright © 2019 - iHelp Assessoria em TI - Todos os Direitos
+            Reservados. Consultoria de Sistemas ERP TOTVS RM e PROTHEUS - Rio de
+            Janeiro
+          </p>
+
+          <div className="conatiner">
+            <button className="btn mr-2 link-footer">
+              <FaFacebookF className="icons-footer" size={25} />
+            </button>
+            <button className="btn mr-2 link-footer">
+              <FaWhatsapp className="icons-footer" size={25} />
+            </button>
+            <button className="btn link-footer">
+              <FaLinkedinIn className="icons-footer" size={25} />
+            </button>
+          </div>
+        </footer>
       </div>
     </Container>
   );

@@ -9,11 +9,11 @@ export default function Cards() {
       <div className="container-fluid bg-gelo pt-5 pb-5">
         <div className="row justify-content-center">
           <article className="card border-card p-0 m-4 col-12 col-md-4">
-            <img
+            {/* <img
               src={imgBlack}
               className="card-img-top card-position-img"
               alt="..."
-            />
+            /> */}
             <div className="card-body">
               <h5 className="card-title">Implantação de Sistemas ERP</h5>
               <p className="card-text">
@@ -26,11 +26,11 @@ export default function Cards() {
           </article>
 
           <article className="card border-card p-0 m-4 col-12 col-md-4">
-            <img
+            {/* <img
               src={imgBlack}
               className="card-img-top card-position-img"
               alt="..."
-            />
+            /> */}
             <div className="card-body">
               <h5 className="card-title">Customização de Processos</h5>
               <p className="card-text">
@@ -43,11 +43,11 @@ export default function Cards() {
           </article>
 
           <article className="card border-card p-0 m-4 col-12 col-md-4">
-            <img
+            {/* <img
               src={imgBlack}
               className="card-img-top card-position-img"
               alt="..."
-            />
+            /> */}
             <div className="card-body">
               <h5 className="card-title">Administração de Banco de Dados</h5>
               <p className="card-text">
@@ -59,15 +59,15 @@ export default function Cards() {
           </article>
 
           <article className="card border-card p-0 m-4 col-12 col-md-4">
-            <img
-              src={imgBlack}
-              className="card-img-top card-position-img"
-              alt="..."
-            />
+            {/* <img
+                src={imgBlack}
+                className="card-img-top card-position-img"
+                alt="..."
+              /> */}
             <div className="card-body">
               <h5 className="card-title">Desenvolvimento de Sistema</h5>
               <p className="card-text">
-                A iHekp disponibiliza uma equipe altamente capacitada nas
+                A iHelp disponibiliza uma equipe altamente capacitada nas
                 diversas tecnologias de desenvolvimento de sistemas e banco de
                 dados e oferece o desenvolvimento de sistemas e processos
                 integrados de forma exclusiva para o funcionamento da sua

@@ -16,5 +16,6 @@ export const Container = styled.div`
   #icon {
     height: 55px;
     width: 180px;
+    cursor: pointer;
   }
 `;

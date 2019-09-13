@@ -22,13 +22,39 @@ export const Container = styled.div`
     -webkit-font-smoothing: antialiased !important;
   }
 
-  .button {
+  .button-form {
     background-color: #0d10c5;
     color: white;
   }
 
-  .button:hover,
-  .button:focus {
+  .button-form:hover,
+  .button-form:focus {
     background-color: #4f52f5;
+  }
+
+  footer h2 {
+    font-size: 40px;
+  }
+
+  .link-footer {
+    background-color: #fff;
+    width: 57px;
+    height: 57px;
+    border-radius: 50%;
+    border: 1px solid #000;
+  }
+
+  .link-footer:hover,
+  .link-footer:focus {
+    background-color: #343a40;
+    transform: scale(1.1);
+    color: #fff;
+  }
+
+  .icons-footer {
+  }
+
+  .icons-footer:hover,
+  .icons-footer:focus {
   }
 `;
